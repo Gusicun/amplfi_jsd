@@ -1,0 +1,20 @@
+Conda: "igwn" environment loaded. To disable, 'touch ~/.noigwn' and relogin.
+:: oneAPI environment initialized :: Intel(R) oneAPI DPC++/C++ Compiler 2023.2.4 (2023.2.4.20240127)
+HTCondor Access Point for the local Caltech pool using a Local AP issuer
+See: https://computing.docs.ligo.org/guide/htcondor/credentials/#__tabbed_1_1
+
+kfan.zhang@ldas-pcdev12:~/PE-dev/projects/sandbox_cbc/train/data\(igwn) [fan.zhang@ldas-pcdev12 data]$ conda activate amplfi
+
+EnvironmentNameNotFound: Could not find conda environment: amplfi
+You can list all discoverable environments with `conda info --envs`.
+
+
+kfan.zhang@ldas-pcdev12:~/PE-dev/projects/sandbox_cbc/train/data\(igwn) [fan.zhang@ldas-pcdev12 data]$ conda info --envs
+
+[1]+  Stopped                 ( "$CONDA_EXE" $_CE_M $_CE_CONDA "$@" )
+kfan.zhang@ldas-pcdev12:~/PE-dev/projects/sandbox_cbc/train/data\(igwn) [fan.zhang@ldas-pcdev12 data]$ exit
+logout
+There are stopped jobs.
+kfan.zhang@ldas-pcdev12:~/PE-dev/projects/sandbox_cbc/train/data\(igwn) [fan.zhang@ldas-pcdev12 data]$ exit
+logout
+[H[J
